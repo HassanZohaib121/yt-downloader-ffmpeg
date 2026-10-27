@@ -1,0 +1,9 @@
+{
+  "type": "stdio",
+  "allowed_extensions": [
+    "media-link-inspector@local.example"
+  ],
+  "description": "Send captured media links to Link Capture",
+  "path": "C:\\Users\\Hassan\\Documents\\Codex\\2026-10-27\\i-w\\outputs\\link-capture-app\\LinkCaptureHost.exe",
+  "name": "local.media_link_capture"
+}

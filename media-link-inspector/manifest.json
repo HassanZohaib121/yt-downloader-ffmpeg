@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Media Link Inspector",
+  "version": "0.6.0",
+  "description": "Inspect media URLs requested by the current tab.",
+  "permissions": [
+    "webRequest",
+    "tabs",
+    "clipboardWrite",
+    "<all_urls>",
+    "nativeMessaging"
+  ],
+  "background": {
+    "scripts": [
+      "hls-parser.js",
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Media Link Inspector",
+    "default_popup": "popup.html"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "media-link-inspector@local.example"
+    }
+  }
+}
